@@ -57,17 +57,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <form class="form-inline" id="searchbuttonset">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <li class="">
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    </li>
                 </ul>
             </div>
         </nav>
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9" id="container1">
+                <div class="col-md-12" id="container1">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,21 +75,21 @@
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/slider1.png" alt="First slide">
+                            <img class="d-block w-100" src="images/slider1.png" id="slideimage1" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 id="slider1">DAILY WORKOUTS</h5>
                                 <p>Go harder, longer, and stronger with these intense workouts that can take your fitness to the next level</p>
                             </div>
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="images/slider2.png" alt="Second slide">
+                            <img class="d-block w-100" src="images/slider2.png" id="slideimage2" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 id="slider2">DIET</h5>
                                 <p>...</p>
                               </div>
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="images/slider3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="images/slider3.jpg" id="slideimage3" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 id="slider3">PROTEIN INTAKE</h5>
                                 <p>...</p>
@@ -107,25 +106,26 @@
                         </a>
                       </div>
                 </div>
-                <div class="col-md-3" id="container2">
-                    <div class="container">
-                        <label for="uname" style="padding-top: 40px"><b>Username</b></label>
-                        <input type="text" id="textlogin" placeholder="Enter Username" name="uname" required>
-                    
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" id="passwordlogin" placeholder="Enter Password" name="psw" required>
-                            
-                        <button type="submit" id="loginbutton">Login</button>
-                        <label>
-                          <input type="checkbox" checked="checked" name="remember"> Remember me
-                        </label>
-                      </div>
-                    
-                      <div class="container" style="background-color:#f1f1f1; padding: 5px">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
-                      </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="mencontainer">
+                    <img src="images/steve.png" href="#" class="imagesteve">
+                        <div class="middle">
+                            <div class="text">
+                                MEN
+                            </div>
+                        </div>
                 </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-12" id="womencontainer">
+                            <img src="images/nikki.png" href="#" class="imagesteve">
+                            <div class="middle">
+                                <div class="text">
+                                    WOMEN
+                                </div>
+                            </div>
+                    </div>
             </div>
         </div>
 </body>
