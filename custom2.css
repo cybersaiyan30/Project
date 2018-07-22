@@ -3,6 +3,8 @@ background-color: black;
 }
 #workoutjumbotron{
     background-image: url("images/workoutbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size:100%;
@@ -55,4 +57,21 @@ background-color: black;
 }
 #womencontainer:hover .middle{
     opacity: 1.0;
+}
+#submencontainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("images/men/mentextbackground.jpg");
+}
+.workoutimages{
+    float: right;
+    width: 75%;
+}
+.workouttext{
+    margin-left: 10px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgba(176, 188, 228, 0.719);
 }
