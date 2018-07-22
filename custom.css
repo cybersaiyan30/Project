@@ -36,6 +36,7 @@ background-color:grey;
     font-weight: bold;
 }
 #container1{
+    padding-top: 50px;
     padding-left: 0px;
     padding-right: 0px;
     max-width: 100%;
@@ -111,14 +112,4 @@ background-color:grey;
 }
 #subscribecontainer:hover .middle{
     opacity: 1.0;
-}
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
 }
